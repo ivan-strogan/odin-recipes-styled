@@ -3,16 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <title>Basic Crêpes Recipe</title>
+    <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
-    <h1>Basic Crêpes</h1>
+    <h1 class="title">Basic Crêpes</h1>
     <img
       src="../images/basic-crepes.jpeg"
       alt="An image of a delicious crepes dish"
-      width="600"
     />
     <div>
-      <h3>Description</h3>
+      <h3 class="title">Description</h3>
       <p>
         This simple but delicious crêpe recipe can be made in minutes from
         ingredients that everyone has on hand.
@@ -31,9 +31,9 @@
         ingredient list and step-by-step instructions in the recipe below
       </p>
     </div>
-    <div>
-      <h3>Ingredients</h3>
-      <ul>
+    <div class="container">
+      <h3 class="title">Ingredients</h3>
+      <ul class="ingredients">
         <li>1 cup all-purpose flour</li>
         <li>2 large eggs</li>
         <li>½ cup milk</li>
@@ -43,7 +43,7 @@
       </ul>
     </div>
     <div>
-      <h3>Steps</h3>
+      <h3 class="title">Steps</h3>
       <ol>
         <li>
           Whisk flour and eggs together in a large mixing bowl; gradually add in
@@ -64,6 +64,14 @@
         </li>
       </ol>
     </div>
-    <a href="../index.html">Home</a>
+    <div class="container">
+      <button
+        onclick="location.href='../index.html'"
+        type="button"
+        class="home"
+      >
+        Home
+      </button>
+    </div>
   </body>
 </html>
